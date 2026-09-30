@@ -1,0 +1,8 @@
+.instance-badge { display: inline-flex; align-items: center; gap: 7px; padding: 8px 10px; color: #fff; border-radius: 6px; font: 800 9px 'DM Mono', monospace; letter-spacing: .02em; box-shadow: 0 2px 7px rgba(20,30,60,.15); }
+.instance-dot { width: 7px; height: 7px; background: #fff; border-radius: 50%; }
+.instance-8081 { background: #d43d55; }
+.instance-8082 { background: #2563c7; }
+.instance-8083 { background: #078f6f; }
+.instance-4000 { background: #7451c7; }
+.instance-unknown { color: #475569; background: #e2e8f0; }
+@media (max-width: 800px) { .instance-badge { padding: 6px 7px; font-size: 8px; } }
